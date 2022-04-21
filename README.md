@@ -12,7 +12,11 @@ https://behave.readthedocs.io/en/stable/
 
 ## Learning Steps
 
-- [00 basics](./00_basics) : Minimal getting started with behave and gherkin
+- [00 basics](./00_basics) : Minimal getting started with Behave and Gherkin
+- [01 print and logging](./01_print_and_logging) : How to display some debug logs
+- [02 before and after](./02_before_and_after) : Behave special functions
+
+
 
 
 

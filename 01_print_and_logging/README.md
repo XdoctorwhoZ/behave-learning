@@ -2,7 +2,9 @@
 
 The question that comes very quickly after discovering behave is : how do I see my print ?
 
-Indeed, by default, behave capture output logs stdout & stderr.
+Indeed, by default, behave capture output logs stdout & stderr. 
+
+This example is the same as *00_basics* but append some debug logs.
 
 ## How do I display my debug print ?
 
