@@ -1,10 +1,9 @@
 # 01 Print and Logging
 
-The question that comes very quickly after discovering behave is : how do I see my print ?
+This example is based on the previous example and append some debug logs.
 
-Indeed, by default, behave capture output logs stdout & stderr. 
-
-This example is the same as *00_basics* but append some debug logs.
+The question that comes very quickly after discovering behave is : how do I see my print ? 
+Indeed, by default, behave capture output logs stdout & stderr. So you won't see anyhting.
 
 ## How do I display my debug print ?
 
