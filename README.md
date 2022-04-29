@@ -21,10 +21,8 @@ Each step is based on the previous one, improving the way it is done by a new be
 - [02 context](./02_context) : Introduce the context attribute
 - [03 environment file](./03_environment_file) : Introduce the environment file and special functions (before and after)
 - [04 step parametrization](./04_step_parameters) : Introduce step parametrization
+- [05 scenario outline](./05_outline) : How to run the same scenario multiple times with parameters ?
 
-
-
-- **06 outline**:
 
 
 - **03 tags**: 
