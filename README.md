@@ -10,6 +10,10 @@ https://behave.readthedocs.io/en/stable/
 
 > Behavior-driven development (or BDD) is an agile software development technique that encourages collaboration between developers, QA and non-technical or business participants in a software project. We have a page further describing this philosophy.
 
+Check also the cucumber project to get some usefull information
+
+https://cucumber.io/docs/bdd/history/
+
 ## Learning Steps
 
 This repository provides an initiation to behave though the following examples. Those examples does not explore the all power of behave. You can see them as a smooth initiation.
@@ -22,12 +26,6 @@ Each step is based on the previous one, improving the way it is done by a new be
 - [03 environment file](./03_environment_file) : Introduce the environment file and special functions (before and after)
 - [04 step parametrization](./04_step_parameters) : Introduce step parametrization
 - [05 scenario outline](./05_outline) : How to run the same scenario multiple times with parameters ?
-
-
-
-- **03 tags**: 
-- **04 fixture**: 
-- **generate html report**: 
-- **07 attach resources**: 
-
+- [06 tags and fixtures](./06_tags_fixtures) : 
+- [07 html report](./06_tags_fixtures) : 
 
