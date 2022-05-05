@@ -26,6 +26,17 @@ Each step is based on the previous one, improving the way it is done by a new be
 - [03 environment file](./03_environment_file) : Introduce the environment file and special functions (before and after)
 - [04 step parametrization](./04_step_parameters) : Introduce step parametrization
 - [05 scenario outline](./05_outline) : How to run the same scenario multiple times with parameters ?
-- [06 tags and fixtures](./06_tags_fixtures) : 
-- [07 html report](./06_tags_fixtures) : 
+- [06 tags and fixtures](./06_tags_fixtures) : How to inject fixture with tags ?
+- [07 html report](./07_html_report) : Generate html report
+- [08 hamcrest](./08_hamcrest) : Hamcrest
 
+## Install Dependencies
+
+```bash
+# Install from the github to get the lastest cool features
+pip install git+https://github.com/behave/behave
+# Install the html formater, for your bosses :-)
+pip install behave-html-formatter
+# Top Asserts !
+pip install PyHamcrest
+```
