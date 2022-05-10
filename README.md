@@ -14,6 +14,10 @@ Check also the cucumber project to get some usefull information
 
 https://cucumber.io/docs/bdd/history/
 
+You can also find other examples in the following links:
+
+https://jenisys.github.io/behave.example/index.html
+
 ## Learning Steps
 
 This repository provides an initiation to behave though the following examples. Those examples does not explore the all power of behave. You can see them as a smooth initiation.
