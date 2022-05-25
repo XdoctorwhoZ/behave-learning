@@ -1,7 +1,7 @@
 # 09 Logging
 
 Behave is able to capture log / stdout / stderr.
-When developping the test it is better to deactivate those capture features using:
+At beginning, when developping the test, it is better to deactivate those capture features using:
 ```bash
 --no-logcapture --no-capture --no-capture-stderr
 ```
@@ -12,7 +12,7 @@ stderr_capture=False
 stdout_capture=False
 ```
 
-However once test is ended it is better to let behave capture every thing. That way html report will be able to display captured log and stdout associate to the failing scenario.
+However once development is in a good way, it is better to let behave capture every thing. That way html report will be able to display captured log and stdout associate to the failing scenario.
 
 Logging capture can configure through multiple config attribut:
 - logging_level: 
@@ -36,8 +36,16 @@ Specify custom format to print statements. Uses the same format as used by stand
 
 Logging configuration must be done by behave. Either in behave.ini or in before_all().
 
+If log are print in step, a simple way to distinguish log is to set in context a logger whith current step location:
+```
+def before_step(context, step):
+    context.logger = logging.getLogger(step.location)
+```
+Note that this could be done with scenario as well. All associate information are hold in "context.scenario".
 
-__Capture Logging in Hooks__
+
+__behave doc triks: Capture Logging in Hooks__
+
 If you wish to capture any logging generated during an environment hook function’s invocation, you may use the capture() decorator, like:
 
 ```
