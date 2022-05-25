@@ -33,6 +33,7 @@ Each step is based on the previous one, improving the way it is done by a new be
 - [06 tags and fixtures](./06_tags_fixtures) : How to inject fixture with tags ?
 - [07 html report](./07_html_report) : Generate html report
 - [08 hamcrest](./08_hamcrest) : Hamcrest
+- [09 advanced logging](./09_logging) : How to use the logging capture to fill the test report
 
 ## Install Dependencies
 
