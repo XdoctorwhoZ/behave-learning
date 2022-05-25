@@ -12,4 +12,4 @@ def before_all(context):
 ###################################################################################################
 
 def before_step(context, step):
-    context.logger = logging.getLogger(step.location)
+    context.logger = logging.getLogger(f"{step.location}")

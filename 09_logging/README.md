@@ -43,6 +43,7 @@ def before_step(context, step):
 ```
 Note that this could be done with scenario as well. All associate information are hold in "context.scenario".
 
+---
 
 __behave doc triks: Capture Logging in Hooks__
 
